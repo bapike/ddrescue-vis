@@ -1,4 +1,4 @@
-# ddrescue-vis: Visualize GNU ddrescue's log file as a Scalable Vector Graphics (SVG) image
+# ddrescue-vis: Visualize a GNU ddrescue log file as SVG
 
 This program takes a [GNU ddrescue](https://www.gnu.org/software/ddrescue/)
 log file and constructs a Scalable Vector Graphics (SVG) image to
@@ -13,7 +13,7 @@ There is much room for improvement.
 ## Example usage
 ```bash
 ddrescue -b 2048 -d -v /dev/sr0 image.iso image.log
-ddrescue-vis image.log
+ddrescue-vis
 ```
 
 ## Dependencies
@@ -24,7 +24,7 @@ This depends on:
 ## Similar projects
 Somewhat similar projects include:
  * [ddrescueview](http://ddrescueview.sourceforge.net) visualizes the state of the blocks in a ddrescue operation, but not where they are on the disk
- * [dvdisaster](http://dvdisaster.net/) can visualize the parts of a disc that are damaged, provided you have a error correction file [](see, e.g., http://dvdisaster.net/downloads/manual.pdf, page 23)
+ * [dvdisaster](http://dvdisaster.net/) can visualize the parts of a disc that are damaged, provided you have an error correction file [](see, e.g., http://dvdisaster.net/downloads/manual.pdf, page 23)
 
 ## License
 Copyright 2015, 2016  Brian Pike
